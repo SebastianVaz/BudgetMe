@@ -1,0 +1,32 @@
+.contendor{
+    display: flex;
+    justify-content: center;
+    margin-top: 135px;
+}
+
+.filtroContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    min-width: 800px;
+    padding: 40px;
+    border-radius: 1rem;
+    background-color: #ffffff;
+}
+
+.filtroContainer label{
+    font-size: 1.8rem;
+    font-weight: bolder;
+    color: #64748b;
+}
+
+.filtroContainer select{
+    flex: 1;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: #f5f5f5;
+}

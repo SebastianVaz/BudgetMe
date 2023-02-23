@@ -1,0 +1,96 @@
+:root{
+    --gris-claro: #f5f5f5;
+    --azul-marino: #1048a4;
+    --azul: #3b82f6;
+}
+
+.ContenedorFormulario{
+    margin: 0 auto;
+    padding: 10rem 0;
+    position: absolute;
+    background-color: #000000eb;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    opacity: 1;
+}
+
+.renglonFormulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.renglonFormulario label{
+    text-align: left;
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.renglonFormulario input{
+    /* background-color: #f5f5f5; */
+    border-radius: 1rem;
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+}
+
+.renglonFormulario select{
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    text-align: center;
+    /* background-color: #f5f5f5; */
+}
+
+.ContenedorFormulario form{
+    max-width: 60rem;
+    width: 30rem;
+    position: relative;
+    
+}
+
+.centrarFormulario{
+    display: flex;
+    justify-content: center;
+}
+
+.centrarFormulario legend{
+    font-size: 2.5rem;
+    text-align: center;
+    color: #ffffff;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--azul);
+
+}
+
+.ContenedorFormulario button{
+    background-color: var(--azul-marino);
+    border: none;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: #ffffff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.CerrarFormulario{
+    position: absolute;
+    right: 3rem;
+    top: 3rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+.CerrarFormulario img{
+    width: 100%;
+}

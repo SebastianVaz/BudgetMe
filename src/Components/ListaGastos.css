@@ -1,0 +1,56 @@
+.contenedorGastos{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    flex-direction: column;
+}
+
+.Lista_Gastos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    /* min-width: 800px;
+    padding: 40px;
+    border-radius: 1rem;
+    background-color: #ffffff; */
+}
+
+.contenedorTitulo{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    min-width: 800px;
+}
+
+.TituloGastos{
+    font-weight: bolder;
+    color: #64748b;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    
+}
+
+.eliminarSwipe{
+    background-color: red;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px;
+}
+
+.editarSwipe{
+    background-color: green;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+}
