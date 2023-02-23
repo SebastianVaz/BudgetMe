@@ -23,7 +23,7 @@ const FormularioGastos = ({ descripcionGasto, setDescripcionGasto, cantidadGasto
                     <div className="renglonFormulario">
                         <label htmlFor='categoria'>Categoria: </label>
                         <select required id="categoria" name='categoria' value={categoriaGasto} onChange={e => setCategoriaGasto(e.target.value)}>
-                            <option value={"Ahorro"}>Ahorro</option>
+                            <option value={"Ahorro"}>Ahorro </option>
                             <option value={"Comida"}>Comida</option>
                             <option value={"Casa"}>Casa</option>
                             <option value={"Gastos"}>Gastos</option>
